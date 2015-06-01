@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ComposeViewController: UIViewController {
+class ComposeViewController: UIViewController, UIViewControllerTransitioningDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +26,11 @@ class ComposeViewController: UIViewController {
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        modalPresentationStyle = UIModalPresentationStyle.Custom
+        transitioningDelegate = self
+    }
     
     
 
