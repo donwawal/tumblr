@@ -1,7 +1,7 @@
 # tumblr
 CodePath Tumblr Assignment
 
-Time spent: [10] hours
+Time spent: [7] hours
 
 Completed user stories:
  * [x] Tapping on Home, Search, Account, or Trending should show the respective screen and highlight the tab bar button.
